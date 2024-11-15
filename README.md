@@ -1,22 +1,29 @@
-# Unvoid Logic Test
+# Unvoid Logic Test - Scheduling Application
 
-With [NodeJS v20](https://nodejs.org/en/) (or superior) installed, run the following scripts:
+## Test Description
 
-- `npm clean-install` to install the project dependencies
-- `npm test` to run the tests
+This test is part of the hiring process for the developer position. The goal is to implement a scheduling system where patients can book consultations with doctors, respecting the doctors' availability. The focus of the test is on scheduling logic, ensuring that a patient can only book a consultation when the doctor is available.
 
-`lodash` and `date-fns` are already installed, feel free to use them. You can also install other libraries if you want to.
+The project contains **5 tasks** located in the `src/` folder, each with a README explaining what needs to be done. The tasks should be completed in order as they may depend on each other.
 
-Imagine this scenario: You're working on a scheduling application that allows patients to schedule consultations with doctors. Patients should be able to schedule consultations only when the doctors are available. For simplicity, all dates used in the tasks are in UTC. That means you don't need to worry about timezone conversions.
+You have **4 hours** to complete the test from the moment you download the project. The test will be evaluated based not only on the results of the automated tests but also on the quality of the code implemented. If you cannot complete all the tasks, you may still be considered based on your performance.
 
-This test consists of 5 tasks that will be important to identify when the doctors are available. The 5 tasks are in the `src/` folder and there's a README for each task. We recommend you do them in order because they might depend on each other.
+## Requirements
 
-You have 4 hours (since downloading this project) to implement these functions and pass the tests.
+- **Node.js v20 or higher** installed.
+- **Dependencies**: The `lodash` and `date-fns` libraries are already installed and can be used. Feel free to install any other libraries you may need.
+- **Tests**: After implementing the required features, you must run the tests to ensure that everything is working correctly.
 
-**Passing the tests is not a guarantee of passing the selection process. We will also evaluate your code quality. Similarly, you might not complete all 5 tasks and still be approved.**
+## Setup Instructions
 
-### Submission
+1. **Clone the Repository**  
+   If you haven't already, clone the project repository to your local machine:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   
 
-Before submitting your project, run the following command to generate the tarball for submission:
+## Install Dependencies
+1. To install the project dependencies, run the following command:
 
-- `npm run pre-upload` to generate a `.tar.gz` file, which will be created in the `uploads` directory. This is the file you will submit as part of the hiring process.
+bash: npm clean-install
